@@ -1,0 +1,14 @@
+name: d2l-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy=1.21.5
+  - matplotlib=3.5.1
+  - pandas=1.2.4
+  - requests=2.25.1
+  - jupyter=1.0.0
+  - pip
+  - pip:
+      - -e .  # 表示用当前目录的 setup.py 安装（开发模式）
